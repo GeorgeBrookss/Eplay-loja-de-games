@@ -49,13 +49,6 @@ const Categories = () => {
         id="simulation"
         isLoading={isLoadingSimulation}
       />
-      <ProductsList
-        games={rpgGames}
-        title="RPG"
-        background="black"
-        id="simulation"
-        isLoading={isLoadingRpg}
-      />
     </>
   )
 }
