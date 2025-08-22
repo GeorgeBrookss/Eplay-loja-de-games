@@ -35,7 +35,7 @@ Este projeto foi uma jornada de aprendizado que permitiu aplicar e consolidar co
 ## Como Rodar o Projeto
 1. Clone este repositório:  
 ```bash
-git clone <https://github.com/GeorgeBrookss/Eplay-loja-de-games.git>
+git clone https://github.com/GeorgeBrookss/Eplay-loja-de-games.git
 ```
 2. Navegue até o diretório do projeto:
 ```bash
