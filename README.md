@@ -33,6 +33,26 @@ Este projeto foi uma jornada de aprendizado que permitiu aplicar e consolidar co
 - **Loaders e Skeletons:** Telas de carregamento para uma melhor experiência do usuário.  
 
 ## Como Rodar o Projeto
-Clone este repositório:  
+1. Clone este repositório:  
 ```bash
 git clone <https://github.com/GeorgeBrookss/Eplay-loja-de-games.git>
+```
+2. Navegue até o diretório do projeto:
+```bash
+cd eplay
+```
+
+3. Instale as dependências:
+```bash
+npm install
+```
+
+4. Inicie a aplicação:
+```bash
+npm start
+```
+
+## Link do Projeto
+Você pode visualizar a versão online do projeto no seguinte link:
+
+https://eplay-jet.vercel.app/
