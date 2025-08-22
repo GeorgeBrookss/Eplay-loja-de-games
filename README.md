@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+# Eplay - E-commerce de Games
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do Projeto
+Eplay é um e-commerce de jogos online, desenvolvido para demonstrar a criação de uma aplicação web completa e responsiva.  
+O projeto simula a experiência de um usuário navegando por uma loja, visualizando detalhes dos produtos, gerenciando um carrinho de compras e finalizando um pedido.  
 
-## Available Scripts
+A aplicação é totalmente funcional, utilizando uma API externa para buscar os dados dos jogos e gerenciar as operações de compra.  
 
-In the project directory, you can run:
+Este projeto foi uma jornada de aprendizado que permitiu aplicar e consolidar conhecimentos em:
 
-### `npm start`
+- **Desenvolvimento Frontend Completo:** Desde a estrutura inicial (Header, Footer, Banner) até a criação de páginas dinâmicas e responsivas.  
+- **Integração com API:** Consumo de APIs para obter dados de jogos, filtrar por categorias e carregar informações detalhadas.  
+- **Gerenciamento de Estado Global:** Utilização do Redux Toolkit (RTK Query) para gerenciar o estado da aplicação de forma eficiente, controlando o carrinho de compras e os dados de forma centralizada.  
+- **Componentização:** Criação de componentes reutilizáveis para otimizar o fluxo de desenvolvimento e manter a aplicação organizada.  
+- **Validação e UI/UX:** Implementação de validações em formulários de checkout e criação de uma interface de usuário intuitiva e agradável.  
+- **Responsividade:** Design adaptável para garantir a melhor experiência de usuário em diferentes dispositivos (desktop e mobile).  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tecnologias Utilizadas
+- **Frontend:** HTML, CSS, JavaScript (ES6+)  
+- **Framework/Biblioteca:** React  
+- **Gerenciamento de Estado:** Redux Toolkit (RTK Query)  
+- **Requisições HTTP:** Fetch API ou Axios  
+- **Roteamento:** React Router  
+- **Estilização:** Styled Components  
+- **Deploy:** Vercel  
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Funcionalidades Principais
+- **Página Inicial:** Exibe uma lista de jogos dividida por categorias.  
+- **Página de Detalhes:** Mostra informações detalhadas sobre um jogo específico, com galeria de imagens.  
+- **Carrinho de Compras:** Adiciona e remove produtos, exibe o total do pedido.  
+- **Checkout:** Formulário de pagamento com validação para simular a conclusão da compra.  
+- **Responsividade:** Layout adaptado para diferentes tamanhos de tela (desktop, tablet, mobile).  
+- **Loaders e Skeletons:** Telas de carregamento para uma melhor experiência do usuário.  
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Como Rodar o Projeto
+Clone este repositório:  
+```bash
+git clone <URL_DO_SEU_REPOSITORIO>
